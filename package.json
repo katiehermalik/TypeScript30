@@ -1,0 +1,22 @@
+{
+  "name": "javascript30",
+  "version": "1.0.0",
+  "description": "Wes Bos' JavaScript30 reimagined with TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katiehermalik/TypeScript30.git"
+  },
+  "author": "Katie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katiehermalik/TypeScript30/issues"
+  },
+  "homepage": "https://github.com/katiehermalik/TypeScript30#readme",
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
