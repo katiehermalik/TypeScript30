@@ -15,7 +15,7 @@ function setDate(): void {
   minuteHand.style.transform = `rotate(${minutesDegrees}deg)`;
 
   const hours: number = now.getHours();
-  const hoursDegrees: number = ((hours / 12) * 360) + 90;
+  const hoursDegrees: number = ((hours / 12) * 360) + 90 + ((minutes / 60) * 30);
   hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
 }
 

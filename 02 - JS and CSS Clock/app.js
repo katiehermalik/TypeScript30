@@ -12,7 +12,7 @@ function setDate() {
     var minutesDegrees = ((minutes / 60) * 360) + 90;
     minuteHand.style.transform = "rotate(" + minutesDegrees + "deg)";
     var hours = now.getHours();
-    var hoursDegrees = ((hours / 12) * 360) + 90;
+    var hoursDegrees = ((hours / 12) * 360) + 90 + ((minutes / 60) * 30);
     hourHand.style.transform = "rotate(" + hoursDegrees + "deg)";
 }
 setInterval(setDate, 1000);
